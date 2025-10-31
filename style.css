@@ -45,10 +45,8 @@ body {
   margin-left: -20px;   /* schuif het logo naar links */
 }
 
-}
 
 /* SVG logo zelf */
-.logo img {
   .logo img {
   height: 80px;              /* zelfde hoogte als navbar */
   object-fit: contain;
