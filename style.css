@@ -210,7 +210,7 @@ button:hover {
   width: 100%;
 }
 
-/* ABOUT  */
+/* ABOUT */
 .about-section {
   position: relative;
   width: 100%;
@@ -222,20 +222,20 @@ button:hover {
 /* groene achtergrond */
 .about-content-box {
   background: var(--dark-green);
-  min-height: 380px;
+  min-height: 420px; /* iets hoger voor ademruimte */
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* 👈 centreert alles verticaal */
   justify-content: space-between;
-  padding: 70px 8% 80px 120px; /* ruimte links voor verticale tekst */
+  padding: 70px 10%;
   position: relative;
   overflow: visible;
 }
 
-/* verticale tekst links */
+/* verticale tekst "OVER MIJ" */
 .about-vertical {
- position: absolute;
+  position: absolute;
   top: 50%;
-  left: 40px;
+  left: 5%;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
@@ -251,49 +251,52 @@ button:hover {
   z-index: 2;
 }
 
-/* tekst rechts van de verticale tekst */
+/* tekstblok */
 .about-text-block {
   color: #fff;
-  line-height: 1.6;
-  max-width: 60%;
+  line-height: 1.7;
+  max-width: 600px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/* naam */
 .about-name {
-  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 800; /* Extra Bold */
-  font-size: 2.2rem;
-  color: #fff;
-  margin-bottom: 6px;
-}
-
-.about-subtitle {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300; /* Light */
-  font-size: 1.4rem;
-  margin-bottom: 25px;
-  color: #fff;
-}
-
-/* beschrijvingstekst */
-.about-paragraph {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
-  font-size: 1.15rem;
-  line-height: 1.5;
+  font-size: 2.4rem; /* iets groter voor hiërarchie */
   color: #fff;
   margin-bottom: 10px;
 }
 
-/* ronde foto rechtsboven */
+/* subtitel */
+.about-subtitle {
+  font-weight: 300; /* Light */
+  font-size: 1.3rem; /* iets kleiner dan naam */
+  margin-bottom: 25px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+/* paragraaftekst */
+.about-paragraph {
+  font-weight: 300;
+  font-size: 1.2rem; /* 👈 iets groter voor leesbaarheid */
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+/* profielfoto (nu gecentreerd in hoogte) */
 .about-photo-wrapper {
   position: absolute;
-  top: -55px;
+  top: 49%;
   right: 7%;
-  width: 220px;
-  height: 220px;
+  transform: translateY(-50%); /* 👈 centreren */
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   overflow: hidden;
   background: #ddd;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 .about-photo-wrapper img {
@@ -302,45 +305,43 @@ button:hover {
   object-fit: cover;
 }
 
-/* responsive aanpassingen */
-@media (max-width: 992px) {
-  .about-content-box {
-    padding: 70px 6% 80px 90px;
-  }
-
-  .about-photo-wrapper {
-    right: 4%;
-  }
-
-  .about-text-block {
-    max-width: 65%;
-  }
+/* witte tussenruimte boven Over mij */
+.white-gap {
+  background: var(--white);
+  height: 120px;
+  width: 100%;
 }
 
-@media (max-width: 768px) {
+/* responsive weergave */
+@media (max-width: 992px) {
   .about-content-box {
     flex-direction: column;
-    padding: 100px 8% 80px 90px;
+    align-items: center;
+    padding: 100px 8% 80px 8%;
+  }
+
+  .about-vertical {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 
   .about-photo-wrapper {
     position: static;
-    margin: 30px auto 0 auto;
-  }
-
-  .about-vertical {
-    left: 20px;
-    top: 20px;
     transform: none;
-    flex-direction: row;
-    gap: 6px;
-    font-size: 1.3rem;
+    margin: 40px auto 0 auto;
+    width: 220px;
+    height: 220px;
   }
 
   .about-text-block {
-    max-width: 100%;
+    text-align: center;
+    max-width: 90%;
   }
 }
+
 
 
 
@@ -459,12 +460,9 @@ button:hover {
     transition: opacity 0.3s ease; 
 } 
 
-.footer a:hover { 
-    opacity: 0.7; 
-} 
-
-#contact {
-  scroll-margin-top: 120px; /* past aan naar smaak */
+/* Voor alle sections (alle pagina's) */
+section {
+  scroll-margin-top: 140px;
 }
 
 /* Responsief */ 
