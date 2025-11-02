@@ -177,6 +177,7 @@ button:hover {
 }
 
 .rotating-words .word {
+  font-size: 3rem;
   position: absolute;
   top: 0;
   left: 0;
