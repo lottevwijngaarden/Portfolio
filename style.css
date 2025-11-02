@@ -42,17 +42,19 @@ body {
 .logo {
   position: relative;
   overflow: visible;
-  margin-left: -20px;   /* schuif het logo naar links */
 }
 
-
 /* SVG logo zelf */
-  .logo img {
-  height: 80px;              /* zelfde hoogte als navbar */
-  object-fit: contain;
+.logo img {
+  position: absolute;
+  top: -83px;          /* laat het logo omhoog vallen zodat het niet de balkhoogte beïnvloedt */
+  left: -47px;
+  height: 165px;       /* formaat van je logo */
+  transform: translateY(20px); /* krul steekt mooi onder de balk uit */
   display: block;
+  object-fit: contain;
   filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.2));
-  pointer-events: none;
+  pointer-events: none; /* voorkomt dat je per ongeluk klikt op het logo */
 }
 
 /* Navigatielinks */
@@ -327,6 +329,11 @@ button:hover {
 .footer a:hover { 
     opacity: 0.7; 
 } 
+
+#contact {
+  scroll-margin-top: 120px; /* past aan naar smaak */
+}
+
 /* Responsief */ 
 @media (min-width: 768px) { 
     .footer-content { 
