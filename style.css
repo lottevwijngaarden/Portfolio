@@ -533,10 +533,11 @@ button:hover {
     transition: opacity 0.3s ease; 
 } 
 
-/* Voor alle sections (alle pagina's) */
-section {
-  scroll-margin-top: 140px;
-}
+/* na klikken op navbar doorgestuurd worden */
+#overmij { scroll-margin-top: 140px; }
+#projecten { scroll-margin-top: 10px; }
+#contact { scroll-margin-top: 140px; }
+
 
 /* Responsief */ 
 @media (min-width: 768px) { 
