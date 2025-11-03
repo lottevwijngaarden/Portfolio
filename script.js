@@ -16,37 +16,52 @@ function openProject(project) {
   if (project === 'planmaatje') {
     content = `
       <h2>PlanMaatje</h2>
-      <p>PlanMaatje is een dagstructuur-tool ontworpen voor ouderen met dementie. Het project richtte zich op eenvoud, herkenbaarheid en gebruiksgemak, met visuele ondersteuning voor dagelijkse routines.</p>
+      <p>Opdrachtgevers:
+Maartje Vermeer & Katie Verschueren
+Uitgevoerd door het Centre of Expertise Perspectief in Gezondheid in samenwerking met Urban Living Lab Breda, als onderdeel van Werkplaats Sociaal Domein Ouderen
+
+De opdracht:
+De doelstelling voor (t)huis van de toekomst was het ontwerpen van interactieve technologie die aangepast is naar de behoeften van mensen met dementie én hun mantelzorgers, zodat de eigen regie van beiden in huis bevorderd wordt. Het doel is om mensen met dementie in staat te stellen langer zelfstandig thuis te wonen.
+
+Het ontwerp:
+PlanMaatje helpt ouderen met dementie (en hun mantelzorgers) om meer structuur in hun dag te brengen.
+Door middel van magneetjes en een ronddraaiend meganisme ziet de doelgroep welke taak er op dat moment uitgevoerd moet worden.
+Om prikkels te beperken zijn er verschillende inschuifbare voorkanten gemaakt, om meer of minder uur op een dag te kunnen zien.
+
+Mijn inzichten:
+Een ontwerp aangepast aan de behoeften van de doelgroep dmv problemen in kaart brengen en verbanden leggen. 
+Concept bedacht en de vormgeving
+Prototype gemaakt mbv fysieke materialen (+lasersnijder)</p>
       <div class="placeholder beige" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'sol') {
     content = `
       <h2>Sól</h2>
-      <p>Sól is een merkidentiteit voor een verfrissend drankje geïnspireerd door Scandinavisch design. De focus lag op typografie, kleur en eenvoud.</p>
+      <p>WIP</p>
       <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'thirteen') {
     content = `
       <h2>Thirteen</h2>
-      <p>Thirteen is een persoonlijke platenhoes waarin beeld, muziek en identiteit samenkomen. Een visuele vertaling van emotie en ritme.</p>
+      <p>WIP</p>
       <div class="placeholder green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'happyplants') {
     content = `
       <h2>HappyPlants</h2>
-      <p>HappyPlants is een UX-designconcept voor een mobiele app die gebruikers helpt hun kamerplanten gezond te houden. De focus lag op intuïtieve navigatie, herkenbare iconen en een frisse, natuurlijke uitstraling.</p>
+      <p>WIP</p>
       <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'miniKathedraal') {
     content = `
       <h2>Mijn mini Groene Kathedraal</h2>
-      <p>Een sociale interventie die mensen samenbrengt via onconventionele media. Gebaseerd op de symboliek van groei, gemeenschap en duurzaamheid.</p>
+      <p>WIP</p>
       <div class="placeholder dark-green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'quietSleutel') {
     content = `
       <h2>Quiet Sleutel</h2>
-      <p>Een campagne ontworpen om de naamsbekendheid van Quiet Sleutel te vergroten. Gericht op sociale betrokkenheid en bewustwording.</p>
+      <p>WIP</p>
       <div class="placeholder beige" style="height:300px; margin-top:20px;"></div>
     `;
   }
