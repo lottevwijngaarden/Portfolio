@@ -32,7 +32,7 @@ Mijn inzichten:
 Een ontwerp aangepast aan de behoeften van de doelgroep dmv problemen in kaart brengen en verbanden leggen. 
 Concept bedacht en de vormgeving
 Prototype gemaakt mbv fysieke materialen (+lasersnijder)</p>
-      <div class="placeholder beige" style="height:300px; margin-top:20px;"></div>
+      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'sol') {
     content = `
@@ -44,7 +44,7 @@ Prototype gemaakt mbv fysieke materialen (+lasersnijder)</p>
     content = `
       <h2>Thirteen</h2>
       <p>WIP</p>
-      <div class="placeholder green" style="height:300px; margin-top:20px;"></div>
+      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'happyplants') {
     content = `
@@ -56,13 +56,13 @@ Prototype gemaakt mbv fysieke materialen (+lasersnijder)</p>
     content = `
       <h2>Mijn mini Groene Kathedraal</h2>
       <p>WIP</p>
-      <div class="placeholder dark-green" style="height:300px; margin-top:20px;"></div>
+      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
     `;
   } else if (project === 'quietSleutel') {
     content = `
       <h2>Quiet Sleutel</h2>
       <p>WIP</p>
-      <div class="placeholder beige" style="height:300px; margin-top:20px;"></div>
+      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
     `;
   }
 
