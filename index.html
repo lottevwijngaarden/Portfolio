@@ -79,7 +79,7 @@
         behoeften en beleving van de gebruiker.
       </p>
       <p class="about-paragraph">
-        Zo ontstaan ontwerpen die functioneel zijn, een blijvende indruk achterlaten of zelfs een
+        Zo ontstaan ontwerpen die functioneel zijn, een blijvende indruk achterlaten en een
         positieve verandering in gang zetten.
       </p>
     </div>
@@ -90,28 +90,82 @@
   </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projecten" class="section projects fade-in">
-  <h2>Projecten</h2>
+<!-- PROJECTEN -->
+<section id="projecten" class="section projects-section fade-in">
 
-  <div class="projects-grid">
-    <div class="project-card" onclick="openProject('happyplants')">
-      <div class="placeholder light-green"></div>
-      <div class="project-info">
-        <h3>HappyPlants</h3>
-        <p>UX design voor een fictieve mobiele app</p>
-      </div>
-    </div>
+  <!-- verticale tekst -->
+  <div class="projects-vertical">
+    <span>P</span>
+    <span>R</span>
+    <span>O</span>
+    <span>J</span>
+    <span>E</span>
+    <span>C</span>
+    <span>T</span>
+    <span>E</span>
+    <span>N</span>
+  </div>
 
+  <!-- grid met project cards -->
+  <div class="projects-content">
+    <div class="projects-grid">
+    <!-- 1. PlanMaatje -->
     <div class="project-card" onclick="openProject('planmaatje')">
-      <div class="placeholder beige"></div>
+      <img src="img/PlanMaatje-img1.png" alt="PlanMaatje projectvoorbeeld" class="project-image">
       <div class="project-info">
         <h3>PlanMaatje</h3>
         <p>Dagstructuur-tool voor ouderen met dementie</p>
       </div>
     </div>
+
+    <!-- 2. Sól -->
+    <div class="project-card" onclick="openProject('sol')">
+      <div class="placeholder light-green"></div>
+      <div class="project-info">
+        <h3>Sól</h3>
+        <p>Merkidentiteit drankje</p>
+      </div>
+    </div>
+
+    <!-- 3. Thirteen -->
+    <div class="project-card" onclick="openProject('thirteen')">
+      <div class="placeholder green"></div>
+      <div class="project-info">
+        <h3>Thirteen</h3>
+        <p>Persoonlijke platenhoes</p>
+      </div>
+    </div>
+
+    <!-- 4. HappyPlants -->
+    <div class="project-card" onclick="openProject('happyplants')">
+      <div class="placeholder light-green"></div>
+      <div class="project-info">
+        <h3>HappyPlants</h3>
+        <p>UX-design mobiele app</p>
+      </div>
+    </div>
+
+    <!-- 5. Mijn mini Groene Kathedraal -->
+    <div class="project-card" onclick="openProject('miniKathedraal')">
+      <div class="placeholder dark-green"></div>
+      <div class="project-info">
+        <h3>Mijn mini Groene Kathedraal</h3>
+        <p>Sociale interventie</p>
+      </div>
+    </div>
+
+    <!-- 6. Quiet Sleutel -->
+    <div class="project-card" onclick="openProject('quietSleutel')">
+      <div class="placeholder beige"></div>
+      <div class="project-info">
+        <h3>Quiet Sleutel</h3>
+        <p>Campagne naamsbekendheid</p>
+      </div>
+    </div>
+  </div>
   </div>
 </section>
+
 
 <!-- PROJECT DETAIL OVERLAY -->
 <div class="project-detail hidden" id="projectDetail">

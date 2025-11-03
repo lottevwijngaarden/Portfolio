@@ -285,11 +285,11 @@ button:hover {
   margin-bottom: 14px;
 }
 
-/* profielfoto (nu gecentreerd in hoogte) */
+/* profielfoto */
 .about-photo-wrapper {
   position: absolute;
   top: 49%;
-  right: 7%;
+  right: 10.1%;
   transform: translateY(-50%); /* 👈 centreren */
   width: 320px;
   height: 320px;
@@ -345,12 +345,12 @@ button:hover {
 
 
 
-/* PROJECTS */
+/* PROJECTEN */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   margin-top: 40px;
+  grid-template-columns: repeat(2, 1fr); /* standaard: 2 naast elkaar (ook mobiel) */
 }
 
 .project-card {
@@ -369,6 +369,30 @@ button:hover {
 
 .project-info {
   padding: 20px;
+}
+
+.projects-section {
+  position: relative;
+  background: var(--white);
+}
+
+.projects-vertical {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;               /* Bold zoals bij 'Over mij' */
+  font-size: 2rem;
+  letter-spacing: 3px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--dark-green);       /* Goed contrast op wit */
+  z-index: 2;
 }
 
 /* PROJECT DETAIL */
@@ -413,6 +437,37 @@ button:hover {
   transform: translateY(0);
 }
 
+/*fonts*/
+.projects-section .project-card,
+.projects-section .project-info,
+.projects-section .project-info h3,
+.projects-section .project-info p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Optionele, nette gewichten zoals in 'Over mij' */
+.projects-section .project-info h3 {
+  font-weight: 800;   /* Extra Bold (matcht .about-name) */
+  font-size: 1.6rem;
+  margin: 0 0 6px 0;
+  color: var(--dark-green);
+}
+.projects-section .project-info p {
+  font-weight: 300;   /* Light (matcht .about-paragraph) */
+  font-size: 1.1rem;
+  margin: 0;
+  color: var(--green);
+}
+
+.project-image {
+  width: 100%;
+  height: 250px;           /* zelfde hoogte als placeholder */
+  object-fit: cover;       /* vult mooi het vlak */
+  border-radius: 15px 15px 0 0;  /* afgeronde bovenhoeken zoals bij de card */
+  display: block;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .home, .about-content {
@@ -421,6 +476,24 @@ button:hover {
 
   .navbar ul {
     gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .projects-vertical {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .projects-content {
+    padding-left: 0;
+  }
+}
+/* desktop/laptop */
+@media (min-width: 1100px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 naast elkaar op grote schermen */
   }
 }
 
