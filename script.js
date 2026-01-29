@@ -234,13 +234,17 @@ function openProject(project) {
         <div class="pm-block">
           <h3>De opdracht</h3>
           <p> 
-          
+          Ontwerp een digitale interface voor een fictieve mobiele app. De focus ligt op hoe kleur wordt gebruikt voor: Contrast, leesbaarheid, hiërarchie, consistentie en toegankelijkheid.
           </p>
         </div>
 
         <div class="pm-block">
           <h3>Het ontwerp</h3>
-          <p>
+          <p> Voor mijn plantenwatergeefapp heb ik gewerkt met de 60-30-10 regel. Wit vormt de basis als rustige achtergrond, lichtgroen gebruik ik voor grotere elementen zoals de navigatie en terracotta zet ik in als accentkleur om belangrijke acties extra aandacht te geven. Zo blijft het ontwerp rustig, maar toch levendig en gebruiksvriendelijk.</p>
+
+<p>De kleuren heb ik gekozen op basis van de afbeelding op het welkomstscherm, zodat alles goed bij elkaar past en de app een natuurlijke, speelse en warme sfeer uitstraalt.</p>
+
+<p>Door dezelfde kleuren te gebruiken voor vergelijkbare functies, zoals navigatie en invoervelden, wordt het voor de gebruiker duidelijk hoe de app werkt. Minder belangrijke opties zitten in een hamburgermenu, zodat de focus ligt op de belangrijkste acties. Klikbare teksten zijn onderstreept, zodat het meteen duidelijk is waar je op kunt klikken.
             
           </p>
         </div>
