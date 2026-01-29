@@ -161,7 +161,7 @@ function openProject(project) {
 
       <!-- HERO -->
       <figure class="pm-hero">
-        <img src="img/inhoud/Sol-flyervoor.png" alt="Sól - flyer">
+        <img src="img/Thirteen-img1.png" alt="Thirteen voorkant">
       </figure>
 
       <!-- TEKST -->
@@ -169,16 +169,17 @@ function openProject(project) {
 
         <div class="pm-block">
           <h3>De opdracht</h3>
-          <p>
-            Ontwerp een merkidentiteit voor een zelfbedacht, organisch drankje gericht op jongvolwassenen.
+          <p> 
+          Ontwerp een platenhoes die jouw persoonlijkheid en/of persoonlijke ervaringen weerspiegelt.
           </p>
         </div>
 
         <div class="pm-block">
           <h3>Het ontwerp</h3>
           <p>
-            De speelse, handgeschreven typografie en warme, natuurlijke kleuren geven het blikje een vriendelijke en organische uitstraling. Illustraties en vloeiende vormen versterken het frisse, 
-            organische karakter en zorgen samen voor een herkenbare merkidentiteit rond 100% organic sparkling drink.
+            Voor deze platenhoes ben ik gaan nadenken over de vraag: wie ben ik en wat past bij mij? Al snel kwam ik uit bij het getal 13. Omdat ik jarig ben op de dertiende, heeft dit getal voor mij een speciale betekenis. Het staat voor tegen de stroom ingaan en doen wat je zelf wilt. Daarom speelt de 13 de hoofdrol in het ontwerp.</p>
+<p>Rondom dit centrale element heb ik gekeken naar dingen die mij dagelijks omringen en bij mij passen. Mijn slaapkamer bleek een goede weerspiegeling van wie ik ben. De kleur van mijn muur en de planten en droogbloemen in mijn kamer heb ik verwerkt in de rustige, natuurlijke uitstraling van de platenhoes.</p>
+<p>De vlinder is voor mij een belangrijk symbool. Ik draag deze elke dag in de vorm van een armbandje en zie het als een teken van groei en vrijheid. Door de vlinder door de 13 heen te laten lopen, komt mijn persoonlijke verhaal samen in één beeld.
           </p>
         </div>
 
@@ -186,23 +187,28 @@ function openProject(project) {
         <div class="pm-meta">
           <div class="pm-meta-item">
             <span class="pm-meta-label">Datum</span>
-            <span class="pm-meta-value">juni 2025</span> <!--DATUM-->
+            <span class="pm-meta-value">november 2021</span> 
           </div>
           <div class="pm-meta-item">
             <span class="pm-meta-label">Tools</span>
-            <span class="pm-meta-value"> Schetsen, Moodboard, Illustrator, Mockup</span>
+            <span class="pm-meta-value">Pixlr</span>
           </div>
         </div>
       </section>
 
       <!-- AFBEELDINGEN -->
-    <section class="pm-gallery pm-gallery--sol">
+    <section class="pm-gallery">
       <figure class="pm-card">
-        <img src="img/inhoud/Sol-blikjes.jpg" alt="Sól blikjes">
+        <img src="img/inhoud/Thirteen-voor.png" alt="Platenhoes voorkant">
       </figure>
 
        <figure class="pm-card">
-          <img src="img/inhoud/Sol-insta.png" alt="Sól instagram story">
+          <img src="img/inhoud/Thirteen-achter.png" alt="Platenhoes achterkant">
+      </figure>
+    </section>
+
+      <figure class="pm-card">
+          <img src="img/inhoud/Thirteen-fysiek.jpg" alt="Platenhoes fysiek">
       </figure>
     </section>
 
@@ -210,9 +216,69 @@ function openProject(project) {
     `;
   } else if (project === 'happyplants') {
     content = `
-      <h2>HappyPlants</h2>
-      <p>WIP</p>
-      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
+    <article class="pm-page">
+
+      <header class="pm-header">
+        <h2 class="pm-title">HappyPlants</h2>
+        <p class="pm-subtitle">UX-design mobiele app</p>
+      </header>
+
+      <!-- HERO -->
+      <figure class="pm-hero">
+        <img src="img/inhoud/HP-Startcropped.png" alt="HappyPlants startpagina">
+      </figure>
+
+      <!-- TEKST -->
+      <section class="pm-text">
+
+        <div class="pm-block">
+          <h3>De opdracht</h3>
+          <p> 
+          
+          </p>
+        </div>
+
+        <div class="pm-block">
+          <h3>Het ontwerp</h3>
+          <p>
+            
+          </p>
+        </div>
+
+        <!-- META: datum + tools -->
+        <div class="pm-meta">
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Datum</span>
+            <span class="pm-meta-value">januari 2025</span> 
+          </div>
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Tools</span>
+            <span class="pm-meta-value">Figma</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- AFBEELDINGEN -->
+    <section class="pm-gallery">
+      <figure class="pm-card">
+        <img src="img/inhoud/HP-Home.png" alt="HappyPlants app">
+      </figure>
+
+      <figure class="pm-card">
+        <img src="img/inhoud/HP-My Plants.png" alt="HappyPlants app">
+      </figure>
+
+      <figure class="pm-card">
+        <img src="img/inhoud/HP-HamburgerMenu.png" alt="HappyPlants app">
+      </figure>
+
+      <figure class="pm-card">
+        <img src="img/inhoud/HP-Calender.png" alt="HappyPlants app">
+      </figure>
+
+  
+
+        </article>
     `;
   } else if (project === 'miniKathedraal') {
     content = `
