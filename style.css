@@ -710,7 +710,7 @@ body.no-scroll { /*Zorg dat de hoofdpagina niet meer scrollt als overlay open is
   width: 100%;
   max-height: 420px;
   object-fit: cover;
-  border-radius: 18px;
+  border-radius: 0;
   box-shadow: 0 10px 24px rgba(0,0,0,0.35);
 }
 
@@ -775,6 +775,10 @@ body.no-scroll { /*Zorg dat de hoofdpagina niet meer scrollt als overlay open is
   grid-template-columns: repeat(2, 1fr);
   gap: 22px;
   margin-top: 35px;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .pm-card {
@@ -783,15 +787,11 @@ body.no-scroll { /*Zorg dat de hoofdpagina niet meer scrollt als overlay open is
 
 .pm-card img {
   width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 18px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
   box-shadow: 0 10px 24px rgba(0,0,0,0.35);
   transition: transform 0.3s ease;
-}
-
-.pm-card img:hover {
-  transform: scale(1.03);
 }
 
 .pm-card figcaption {
@@ -809,5 +809,28 @@ body.no-scroll { /*Zorg dat de hoofdpagina niet meer scrollt als overlay open is
   .pm-gallery { grid-template-columns: 1fr; }
   .pm-card img { height: 240px; }
 }
+
+/* SOL layout */
+.pm-gallery--sol {
+  grid-template-columns: 1.2fr 1fr;
+  align-items: stretch;
+}
+
+.pm-gallery--sol figure:last-child img {
+  max-height: 360px;
+  object-fit: contain;
+}
+
+/* Rechter afbeelding (insta) */
+.pm-gallery--sol figure:last-child img {
+  height: 100%;
+  max-height: none;
+  object-fit: cover;     /* vult het vlak mooi */
+  box-shadow: none;     /* 👈 geen schaduw */
+  border: none;         /* 👈 geen rand */
+}
+
+
+
 
 

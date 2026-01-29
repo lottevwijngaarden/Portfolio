@@ -69,7 +69,7 @@ function openProject(project) {
         <div class="pm-meta">
           <div class="pm-meta-item">
             <span class="pm-meta-label">Datum</span>
-            <span class="pm-meta-value">Maart 2025</span> <!--DATUM-->
+            <span class="pm-meta-value">maart 2025</span> <!--DATUM-->
           </div>
           <div class="pm-meta-item">
             <span class="pm-meta-label">Tools</span>
@@ -94,15 +94,119 @@ function openProject(project) {
 
   } else if (project === 'sol') {
     content = `
-      <h2>Sól</h2>
-      <p>WIP</p>
-      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
-    `;
+       <article class="pm-page">
+
+      <header class="pm-header">
+        <h2 class="pm-title">Sól</h2>
+        <p class="pm-subtitle">Merkidentiteit voor een drankje</p>
+      </header>
+
+      <!-- HERO -->
+      <figure class="pm-hero">
+        <img src="img/inhoud/Sol-flyervoor.png" alt="Sól - flyer">
+      </figure>
+
+      <!-- TEKST -->
+      <section class="pm-text">
+
+        <div class="pm-block">
+          <h3>De opdracht</h3>
+          <p>
+            Ontwerp een merkidentiteit voor een zelfbedacht, organisch drankje gericht op jongvolwassenen.
+          </p>
+        </div>
+
+        <div class="pm-block">
+          <h3>Het ontwerp</h3>
+          <p>
+            De speelse, handgeschreven typografie en warme, natuurlijke kleuren geven het blikje een vriendelijke en organische uitstraling. Illustraties en vloeiende vormen versterken het frisse, 
+            organische karakter en zorgen samen voor een herkenbare merkidentiteit rond 100% organic sparkling drink.
+          </p>
+        </div>
+
+        <!-- META: datum + tools -->
+        <div class="pm-meta">
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Datum</span>
+            <span class="pm-meta-value">juni 2025</span> <!--DATUM-->
+          </div>
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Tools</span>
+            <span class="pm-meta-value"> Schetsen, Moodboard, Illustrator, Mockup</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- AFBEELDINGEN -->
+    <section class="pm-gallery pm-gallery--sol">
+      <figure class="pm-card">
+        <img src="img/inhoud/Sol-blikjes.jpg" alt="Sól blikjes">
+      </figure>
+
+       <figure class="pm-card">
+          <img src="img/inhoud/Sol-insta.png" alt="Sól instagram story">
+      </figure>
+    </section>
+
+        </article>
+  `;
   } else if (project === 'thirteen') {
     content = `
-      <h2>Thirteen</h2>
-      <p>WIP</p>
-      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
+      <article class="pm-page">
+
+      <header class="pm-header">
+        <h2 class="pm-title">Thirteen</h2>
+        <p class="pm-subtitle">Persoonlijke platenhoes</p>
+      </header>
+
+      <!-- HERO -->
+      <figure class="pm-hero">
+        <img src="img/inhoud/Sol-flyervoor.png" alt="Sól - flyer">
+      </figure>
+
+      <!-- TEKST -->
+      <section class="pm-text">
+
+        <div class="pm-block">
+          <h3>De opdracht</h3>
+          <p>
+            Ontwerp een merkidentiteit voor een zelfbedacht, organisch drankje gericht op jongvolwassenen.
+          </p>
+        </div>
+
+        <div class="pm-block">
+          <h3>Het ontwerp</h3>
+          <p>
+            De speelse, handgeschreven typografie en warme, natuurlijke kleuren geven het blikje een vriendelijke en organische uitstraling. Illustraties en vloeiende vormen versterken het frisse, 
+            organische karakter en zorgen samen voor een herkenbare merkidentiteit rond 100% organic sparkling drink.
+          </p>
+        </div>
+
+        <!-- META: datum + tools -->
+        <div class="pm-meta">
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Datum</span>
+            <span class="pm-meta-value">juni 2025</span> <!--DATUM-->
+          </div>
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Tools</span>
+            <span class="pm-meta-value"> Schetsen, Moodboard, Illustrator, Mockup</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- AFBEELDINGEN -->
+    <section class="pm-gallery pm-gallery--sol">
+      <figure class="pm-card">
+        <img src="img/inhoud/Sol-blikjes.jpg" alt="Sól blikjes">
+      </figure>
+
+       <figure class="pm-card">
+          <img src="img/inhoud/Sol-insta.png" alt="Sól instagram story">
+      </figure>
+    </section>
+
+        </article>
     `;
   } else if (project === 'happyplants') {
     content = `
