@@ -205,10 +205,13 @@ function openProject(project) {
        <figure class="pm-card">
           <img src="img/inhoud/Thirteen-achter.png" alt="Platenhoes achterkant">
       </figure>
-    </section>
 
       <figure class="pm-card">
           <img src="img/inhoud/Thirteen-fysiek.jpg" alt="Platenhoes fysiek">
+      </figure>
+
+       <figure class="pm-card">
+          <img src="img/inhoud/Thirteen-lp fysiek.jpg" alt="Platenhoes fysiek">
       </figure>
 </section>
         </article>
