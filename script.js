@@ -8,6 +8,7 @@ const projectDetail = document.getElementById('projectDetail');
 const projectContent = document.getElementById('projectContent');
 const closeBtn = document.querySelector('.close-btn');
 
+
 // Opent projecten wanneer je op card klikt
 function openProject(project) {
   let content = '';
