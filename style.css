@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Mistrully';
+  src: url('fonts/Mistrully.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Kleurenpalet */
 :root {
   --dark-green: #2f4f46;
@@ -168,6 +175,7 @@ button:hover {
 }
 
 .home-intro {
+  font-family: 'Open Sans Condensed', sans-serif;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -178,6 +186,7 @@ button:hover {
 }
 
 .intro-title {
+    font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3rem;
   font-weight: 600;
   color: var(--beige);
