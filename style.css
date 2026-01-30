@@ -186,7 +186,6 @@ button:hover {
 }
 
 .intro-title {
-    font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3rem;
   font-weight: 600;
   color: var(--beige);
@@ -201,6 +200,7 @@ button:hover {
 .home-image {
   flex: 1;
   border-radius: 15px;
+  scale: 0.80;
 }
 
 /* Rotating words */
