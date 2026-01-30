@@ -210,8 +210,7 @@ function openProject(project) {
       <figure class="pm-card">
           <img src="img/inhoud/Thirteen-fysiek.jpg" alt="Platenhoes fysiek">
       </figure>
-    </section>
-
+</section>
         </article>
     `;
   } else if (project === 'happyplants') {
@@ -281,28 +280,167 @@ function openProject(project) {
       </figure>
 
   
-
+</section>
         </article>
     `;
-  } else if (project === 'miniKathedraal') {
-    content = `
-      <h2>Mijn mini Groene Kathedraal</h2>
-      <p>WIP</p>
-      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
-    `;
+
   } else if (project === 'quietSleutel') {
-    content = `
-      <h2>Quiet Sleutel</h2>
-      <p>WIP</p>
-      <div class="placeholder light-green" style="height:300px; margin-top:20px;"></div>
+      content = `
+      <article class="pm-page">
+
+      <header class="pm-header">
+        <h2 class="pm-title">Quiet Sleutel</h2>
+        <p class="pm-subtitle">Campagne voor naamsbekendheid van Stichting Quiet</p>
+      </header>
+
+      <!-- HERO -->
+      <figure class="pm-hero">
+        <img src="img/inhoud/Quiet-pitch.jpeg" alt="Quiet sleutel">
+      </figure>
+
+      <!-- TEKST -->
+      <section class="pm-text">
+        <div class="pm-block">
+          <h3>Opdrachtgever</h3>
+          <p>Creatief bureau WARS</p>
+        </div>
+
+        <div class="pm-block">
+          <h3>De opdracht</h3>
+          <p> 
+          Bedenk een manier om lawaai te maken voor stille armoede en stichting Quiet meer naamsbekendheid te geven.
+          </p>
+        </div>
+
+        <div class="pm-block">
+          <h3>Het ontwerp</h3>
+          <p> Voor dit concept heb ik onderzocht wat Quiet écht betekent voor mensen. Ik dook in alles wat online te vinden was over Stichting Quiet en sprak met vrijwilligers, medewerkers en members bij de locatie in Breda. Door hun persoonlijke verhalen en de plek waar zij elkaar ontmoeten, kreeg ik een goed beeld van wat belangrijk is: vertrouwen, openheid en het gevoel dat je welkom bent.</p>
+<p>Mijn ontwerpdoel was om de drempel te verlagen voor mensen die in (stille) armoede leven om zich aan te sluiten bij Quiet. Dit heb ik vertaald naar een houten sleutel als sleutelhanger, die staat voor toegang tot vertrouwen en kleine geluksmomentjes. De sleutel wordt gecombineerd met een kaartje dat Quiet uitlegt en mensen activeert om het door te geven.</p>
+<p>De verspreiding loopt via huidige members, hun sociale kring en voedselbankpakketten, met de focus op lokaal en persoonlijk contact. Zo blijft het concept dichtbij en veilig voor een kwetsbare doelgroep. Elke Quiet-community krijgt een eigen ontwerp, en members kunnen hun sleutels beschilderen om er een persoonlijk en gezamenlijk symbool van te maken.  
+          </p>
+        </div>
+
+        <!-- META: datum + tools -->
+        <div class="pm-meta">
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Datum</span>
+            <span class="pm-meta-value">oktober 2025</span> 
+          </div>
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Tools</span>
+            <span class="pm-meta-value">Interviewen, Illustrator, Photoshop, Lasersnijder</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- AFBEELDINGEN -->
+    <section class="pm-gallery">
+      <figure class="pm-card">
+        <img src="img/inhoud/Quiet-sleutelkaartje.png" alt="Quiet">
+      </figure>
+
+       <figure class="pm-card">
+          <img src="img/inhoud/Quiet-kaartjeachter.png" alt="Quiet">
+      </figure>
+
+      <figure class="pm-card">
+          <img src="img/inhoud/Quiet-steden.png" alt="Quiet">
+      </figure>
+
+       <figure class="pm-card">
+          <img src="img/inhoud/Quiet-pp1.jpg" alt="Quiet">
+      </figure>
+
+
+    </section>
+        </article>
     `;
-  }
+
+  } else if (project === 'DoktertjeAI') {
+      content = `
+      <article class="pm-page">
+
+      <header class="pm-header">
+        <h2 class="pm-title">Doktertje AI</h2>
+        <p class="pm-subtitle">Speculatief speelgoed dat zichtbaar maakt hoe kinderen spelenderwijs leren leven met vooroordelen in medische AI.</p>
+      </header>
+
+      <!-- HERO -->
+      <figure class="pm-hero">
+        <img src="img/inhoud/AI-Productfoto wit.png" alt="Doktertje AI productfoto">
+      </figure>
+
+  <!-- TEKST -->
+      <section class="pm-text">
+      <div class="pm-block">
+          <h3>Opdrachtgever</h3>
+          <p> Amphia Ziekenhuis
+          </p>
+        </div>
+
+        <div class="pm-block">
+          <h3>De opdracht</h3>
+          <p> 
+          Ontwerp een speculatief product binnen de bio-medische zorgcontext dat een relevante ontwikkeling verbeeldt
+           en aanzet tot reflectie en debat over hedendaagse en toekomstige maatschappelijke, technologische en filosofische vraagstukken.
+          </p>
+        </div>
+
+        <div class="pm-block">
+          <h3>Het ontwerp</h3>
+          <p> Voor Doktertje AI staat de vraag “Wat gebeurt er als kinderen opgroeien in een wereld waarin AI een steeds grotere rol speelt in de zorg? centraal.
+Het thema wat bij mijn groepje centraal stond was AI in de zorg. Al snel kwam ik uit bij het thema AI-bias en de gevolgen daarvan voor diagnoses en gelijke behandeling.</p>
+<p>Om dit onderwerp te doorgronden heb ik uitgebreid brononderzoek gedaan en gewerkt met what-if statements, een future wheel en verschillende scenario’s. Deze onderzoeksmethodes hielpen mij om mogelijke toekomsten te verkennen en mijn concept scherper te maken.</p>
+<p>Vanuit deze inzichten heb ik een speelgoedset ontworpen waarin kinderen elkaar kunnen “scannen” en diagnosticeren. De scanner heb ik zelf gemaakt met de lasersnijder. Zo ervaren kinderen spelenderwijs hoe technologie tot een oordeel komt en hoe dat oordeel soms niet klopt.</p>
+<p>Het ontwerp stelt de vraag of we kinderen moeten leren zich aan te passen aan gebrekkige systemen, of dat we technologie beter moeten ontwerpen zodat deze iedereen eerlijk en gelijkwaardig begrijpt.
+          </p>
+        </div>
+
+        <!-- META: datum + tools -->
+        <div class="pm-meta">
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Datum</span>
+            <span class="pm-meta-value">januari 2026</span> 
+          </div>
+          <div class="pm-meta-item">
+            <span class="pm-meta-label">Tools</span>
+            <span class="pm-meta-value">Figma, Prototyping, Illustrator, Lasersnijder, Photoshop</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- AFBEELDINGEN -->
+    <section class="pm-gallery">
+      <figure class="pm-card">
+        <img src="img/inhoud/AI-scanner in houder.jpg" alt="Doktertje AI">
+      </figure>
+
+      <figure class="pm-card">
+          <img src="img/inhoud/AI-achterkant koffertje.jpg" alt="Doktertje AI">
+      </figure>
+
+      <figure class="pm-card">
+          <img src="img/inhoud/AI-scannerschets.jpg" alt="Doktertje AI">
+      </figure>
+
+       <figure class="pm-card">
+          <img src="img/inhoud/AI-eindschets.jpg" alt="Doktertje AI">
+      </figure>
+
+      <figure class="pm-card">
+          <img src="img/inhoud/AI-handen.jpg" alt="Doktertje AI">
+      </figure>
+
+    </section>
+        </article>
+        `;
+}
 
   projectContent.innerHTML = content;
   projectDetail.classList.remove('hidden');
 
   document.body.classList.add('no-scroll');  
-  projectDetail.scrollTo(0, 0);              
+  projectDetail.scrollTo(0, 0);
 }
 
 
